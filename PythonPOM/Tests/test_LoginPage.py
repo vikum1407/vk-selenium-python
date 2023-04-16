@@ -3,7 +3,6 @@ from Pytest.Fixtures.test_fixtureWithParams import BaseTest
 from PythonPOM.Conf.config import TestData
 from PythonPOM.Pages.LoginPage import LoginPage
 
-
 class Test_Login(BaseTest):
 
     def test_orangeHRM_link_visible(self):
